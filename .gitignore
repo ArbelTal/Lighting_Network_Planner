@@ -5,3 +5,5 @@ Output/
 # Node & Build logs
 node_modules/
 *.log
+*.rar
+*.zip
