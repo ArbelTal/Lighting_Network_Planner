@@ -1,0 +1,28 @@
+{
+    "name": "lighting-network-planner",
+    "version": "1.0.0",
+    "description": "Standalone Lighting Network Planner",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder --win --x64"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "build": {
+        "appId": "com.lighting.planner",
+        "win": {
+            "target": "portable",
+            "verifyUpdateCodeSignature": false
+        },
+        "files": [
+            "**/*"
+        ]
+    },
+    "devDependencies": {
+        "electron": "^28.0.0",
+        "electron-builder": "^24.9.1",
+        "electron-packager": "^17.1.2"
+    }
+}

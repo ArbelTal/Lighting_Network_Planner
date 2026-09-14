@@ -1,0 +1,7 @@
+# Executables & Installer output
+*.exe
+Output/
+
+# Node & Build logs
+node_modules/
+*.log
